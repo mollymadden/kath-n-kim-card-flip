@@ -1,0 +1,15 @@
+.Card:hover{
+    cursor: pointer;
+}
+
+.Card img{
+    max-height: 70%;
+    max-width: 70%;
+    border: 2px solid yellow;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
