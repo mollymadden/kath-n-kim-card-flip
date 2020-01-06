@@ -8,7 +8,7 @@ import kel from './assets/images/kel.png'
 import kim from './assets/images/kim.png'
 import marion from './assets/images/marion.png'
 import pruetrude from './assets/images/prue-trude.jpg'
-import sharon from './assets/images/sharon.png'
+import sharon from './assets/images/sharon.jpg'
 
 
 function App() {

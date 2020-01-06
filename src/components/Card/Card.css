@@ -3,8 +3,8 @@
 }
 
 .Card img{
-    max-height: 70%;
-    max-width: 70%;
+    height: 150px;
+    width: 150px;
     border: 2px solid yellow;
 }
 
