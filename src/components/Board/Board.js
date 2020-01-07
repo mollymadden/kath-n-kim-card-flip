@@ -15,7 +15,7 @@ const Board = props => {
       setCompleted([...completed, newCheckers[0].type])
     }
     if (checkersFull(newCheckers)) {
-      resetCheckersAfter(1000)
+      resetCheckersAfter(2000)
     }
     function validateCheckers(checkers){
       return checkers.length === 2 &&

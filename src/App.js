@@ -3,7 +3,7 @@ import Board from './components/Board/Board'
 import backImg from './assets/images/back.png'
 import brett from './assets/images/brett.jpg'
 import cujo from './assets/images/cujo.jpeg'
-import kath from './assets/images/kath.jpg'
+import kath from './assets/images/kathchook.jpg'
 import kel from './assets/images/kel.png'
 import kim from './assets/images/kim.png'
 import marion from './assets/images/marion.png'
@@ -33,10 +33,10 @@ function buildCards() {
     })
     return [...result, getCard(), getCard()]
   }, [])
-  return suffle(cards)
+  return shuffle(cards)
 }
 
-function suffle(arr) {
+function shuffle(arr) {
   let len = arr.length
   for (let i = 0; i < len; i++) {
     let randomIdx = Math.floor(Math.random() * len)
