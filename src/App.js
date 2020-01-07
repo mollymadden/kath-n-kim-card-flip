@@ -9,6 +9,7 @@ import kim from './assets/images/kim.png'
 import marion from './assets/images/marion.png'
 import pruetrude from './assets/images/prue-trude.jpg'
 import sharon from './assets/images/sharon.jpg'
+import { render } from '@testing-library/react'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Board cards={cards} />
+      <button onClick={refreshPage}>New Game!</button>
     </div>
   )
 }
@@ -36,6 +38,11 @@ function buildCards() {
   return shuffle(cards)
 }
 
+function refreshPage() {
+    window.location.reload(false);
+};
+
+
 function shuffle(arr) {
   let len = arr.length
   for (let i = 0; i < len; i++) {
@@ -47,5 +54,7 @@ function shuffle(arr) {
   }
   return arr
 }
+
+
 
 export default App
