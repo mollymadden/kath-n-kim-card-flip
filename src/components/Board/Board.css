@@ -1,8 +1,10 @@
 .Board {
     min-height: 95vh;
-    max-width: 70vw;
+    max-width: 99vw;
     max-height: 95vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
   }
